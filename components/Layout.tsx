@@ -58,6 +58,8 @@ export const Layout: React.FC<LayoutProps> = ({ children, role, onLogout, title 
             <span>Under Supervision of {APP_CONFIG.supervisor}</span>
             <span className="hidden md:inline">|</span>
             <span>Implemented by {APP_CONFIG.developer}</span>
+            <span className="hidden md:inline">|</span>
+            <span className="text-teal-500 font-bold">v2.0 Online</span>
           </div>
         </div>
       </footer>
